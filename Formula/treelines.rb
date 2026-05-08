@@ -2,16 +2,16 @@ class Treelines < Formula
   desc "Local code-intelligence CLI for Go, Python, and Rust"
   homepage "https://github.com/rpcarvs/treelines"
   license "GPL-3.0-only"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
-    url "https://github.com/rpcarvs/treelines/releases/download/v0.4.0/treelines_0.4.0_darwin_arm64.tar.gz"
-    sha256 "2006860e3d93711710510bdac54ddd6019d5222f9dc9e875b5c925b8d3690ed9"
+    url "https://github.com/rpcarvs/treelines/releases/download/v0.4.1/treelines_0.4.1_darwin_arm64.tar.gz"
+    sha256 "bb546119106e40b93e1a25345720459313f5654a9bd206dc612fd6df77f74dfe"
   end
 
   on_linux do
-    url "https://github.com/rpcarvs/treelines/releases/download/v0.4.0/treelines_0.4.0_linux_amd64.tar.gz"
-    sha256 "b8df5629286154a1c1ad17b221d9f1e2ff3b8b619c7e9cccd2e645a3dbee6776"
+    url "https://github.com/rpcarvs/treelines/releases/download/v0.4.1/treelines_0.4.1_linux_amd64.tar.gz"
+    sha256 "eb51ebbbf036ade482a701d764f999a28387aa245a040152fb832402a1286a36"
   end
 
   def install
